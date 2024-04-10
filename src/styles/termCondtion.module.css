@@ -1,0 +1,31 @@
+.mainContainer{
+position: relative;
+
+}
+.container {
+    min-height: 100vh;
+  
+    background-image: url("../../public/images/background-Image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.2;
+    
+}
+.textContain{
+    position: absolute;
+    top: 40px;
+    width: 85vw;
+    height: 85vh;
+    overflow: scroll;
+    scrollbar-width: none;
+    text-align: center;
+    background-color: #FFFFFFCC;
+    padding: 20px 40px 20px 40px;
+   
+    border-radius: 20px;
+}
+.childBox{
+    display: flex;
+    justify-content: center;
+    
+}

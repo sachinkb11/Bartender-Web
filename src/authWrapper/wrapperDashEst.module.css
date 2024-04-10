@@ -1,0 +1,58 @@
+.backImg {
+    background-image: url("../../public/images/completeProfile/Dashboard.png");
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.foreground{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    display: flex;
+    align-items: flex-end;
+}
+
+.box {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 38px 28px 0 0;
+}
+
+.dashboardcontainer {
+    border-radius: 20px;
+    background: #FCFCFC;
+    flex: 1;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    position: relative;
+    padding: 15px;
+    /* background-image: url('../../../public/images/completeProfile/arrow.png'); */
+}
+.boxFooter{
+    height: 38px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.boxFooter >div{
+    display: flex;
+    align-items: center;
+    margin: 0 25px;
+}
+.boxFooter >div p{
+    font-size: 10px;
+    color: white;
+    margin: 0 15px;
+}

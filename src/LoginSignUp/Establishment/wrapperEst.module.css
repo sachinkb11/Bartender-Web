@@ -1,0 +1,28 @@
+.container {
+    min-height: 100vh;
+    background-image: url("../../../public/images/BackgroundImage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.dashboardcontainer {
+    margin-top: 100px;
+    background-color: white;
+    border-radius: 43px;   
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    
+   
+}
+
+.upperImg {
+    position: absolute;
+    top: 45px;
+    width: 140px;
+    height: 120px;
+}

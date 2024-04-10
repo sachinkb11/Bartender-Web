@@ -1,0 +1,17 @@
+ .inputField{
+    width: 70px ;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 100px;
+border: 0.91px solid #E9ECEF ;
+}
+.btn{
+    width: 499px;
+}
+.header {
+    font-size: 24px;
+    font-family: "Righteous", sans-serif;
+
+}
